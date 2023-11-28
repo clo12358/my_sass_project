@@ -1,3 +1,31 @@
+/* Nav height */
 .nav-height {
     height: 62px;
+}
+
+/* Section 1 padding top */
+.pd-top {
+    padding-top: 62px;
+}
+
+.pd-top-160 {
+    padding-top: 160px;
+}
+
+.pd-50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Background image */
+.bg-image {
+    background-image: url('../images/greenville_banner.png');
+    height: 690px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-attachment: fixed;  */
+}
+
+.gap-50 {
+    gap: 50px;
 }
