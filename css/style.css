@@ -3,13 +3,19 @@
     height: 62px;
 }
 
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+
 /* Section 1 padding top */
 .pd-top {
     padding-top: 62px;
 }
 
-.pd-top-160 {
-    padding-top: 160px;
+.pd-top-100 {
+    padding-top: 100px;
 }
 
 .pd-50 {
@@ -17,10 +23,23 @@
     padding-bottom: 50px;
 }
 
+/* Center Div */
+.center-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom-div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 /* Background image */
 .bg-image {
     background-image: url('../images/greenville_banner.png');
-    height: 690px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
     /* background-attachment: fixed;  */
