@@ -24,6 +24,10 @@ h5 {
     font-size: 20px;
 }
 
+.coming-soon p {
+    font-size: 20px;
+}
+
 /* Section 1 padding top */
 .pd-top {
     padding-top: 62px;
@@ -50,6 +54,11 @@ h5 {
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+
+/* Text Shadow */
+.text-shadow {
+    text-shadow: 2px 2px 3px black;
 }
 
 /* Background image */
@@ -121,13 +130,3 @@ a {
     .text-success {
         color: rgb(147, 211, 207) !important;
     }
-    
-    /* .bg-danger {
-        background-color: rgb(234, 112, 102) !important;
-    }
-    .border-danger {
-        border-color: rgb(234, 112, 102) !important;
-    }
-    .text-danger {
-        color: rgb(234, 112, 102) !important;
-    } */
